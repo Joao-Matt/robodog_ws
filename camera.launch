@@ -1,0 +1,5 @@
+<launch>
+
+    <node name='webcom' pkg='vision' type='camera_pub.py' output='screen' respawn='true'/>
+
+</launch> 
